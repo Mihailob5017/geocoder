@@ -11,7 +11,7 @@ async function addStore(e) {
     alert('Please fill in fields');
   }
   const sendBody = {
-    storeID: storeId.value,
+    storeId: storeId.value,
     address: storeAddress.value
   };
 
